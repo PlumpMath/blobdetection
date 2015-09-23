@@ -3,6 +3,11 @@ import matplotlib.pyplot  as plot
 import numpy              as np
 
 from sample import sample as X
+import numpy as np
+
+X = np.array(X)
+
+print X
 
 sampleArray = np.array(X)
 

@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-
-filename="sample.py"
-
-python generate_sample.py > $filename
-echo -e "sample = $(cat $filename)" > $filename
