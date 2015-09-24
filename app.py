@@ -96,9 +96,7 @@ for x in range(width):
 			value=1.0
 			screenValuesBlobSize[x][y] = np.array([value,value,value])
 
-print(maxValue)
-print maxX
-print maxY
+print "Biggest blob size: " + str(maxValue)
 
 #Plot it
 
