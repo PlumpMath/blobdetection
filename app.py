@@ -89,10 +89,12 @@ for x in range(width):
 		# value = (1.0-blobSizes[x][y])*20
 		value=0.0
 		screenValuesBlobSize[x][y] = np.array([value,value,value])
-		if blobSizes[x][y]==14:
+
+for x in range(width):
+	for y in range(height):
+		if blobSizes[x][y]==maxValue:
 			value=1.0
 			screenValuesBlobSize[x][y] = np.array([value,value,value])
-
 
 print(maxValue)
 print maxX
